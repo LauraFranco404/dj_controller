@@ -1,0 +1,10 @@
+#N canvas 64 64 1920 966 12;
+#X msg 425 98 listen 6000;
+#X obj 424 177 netreceive -b -u;
+#X obj 373 242 print;
+#X obj 489 243 oscparse;
+#X obj 494 320 print;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 1 0 3 0;
+#X connect 3 0 4 0;
