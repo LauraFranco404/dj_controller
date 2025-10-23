@@ -1,0 +1,6 @@
+#N canvas 841 397 489 353 12;
+#X obj 137 245 print;
+#X obj 132 40 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
+#X obj 140 98 inputreader;
+#X connect 1 0 2 0;
+#X connect 2 0 0 0;
