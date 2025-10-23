@@ -1,0 +1,16 @@
+#N canvas 715 376 859 540 10;
+#X obj 115 306 noteout;
+#X obj 341 293 ctlout;
+#X obj 189 260 pgmout;
+#X obj 150 182 route note pgm cc;
+#X obj 111 256 unpack f f;
+#X msg 296 123 cc 7 100;
+#X msg 134 121 note 60 127;
+#X msg 230 120 pgm 0.1;
+#X connect 3 0 4 0;
+#X connect 3 1 2 0;
+#X connect 3 2 1 0;
+#X connect 4 0 0 0;
+#X connect 5 0 3 0;
+#X connect 6 0 3 0;
+#X connect 7 0 3 0;
