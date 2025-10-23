@@ -1,12 +1,10 @@
-#N canvas 272 252 450 262 12;
+#N canvas 272 252 450 224 12;
 #X obj 217 112 netreceive -b -u;
-#X obj 166 177 print;
+#X obj 192 234 print;
 #X obj 282 178 oscparse;
-#X obj 173 224 print;
 #X obj 303 251 outlet;
 #X obj 211 41 inlet;
-#X connect 0 0 1 0;
 #X connect 0 0 2 0;
 #X connect 2 0 3 0;
-#X connect 2 0 4 0;
-#X connect 5 0 0 0;
+#X connect 2 0 1 0;
+#X connect 4 0 0 0;
