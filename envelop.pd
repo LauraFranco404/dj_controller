@@ -2,7 +2,7 @@
 #X obj 94 67 tgl 19 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #N canvas 1060 281 815 653 counter 0;
 #X obj 87 29 inlet;
-#X obj 166 30 inlet;
+#X obj 173 32 inlet;
 #X obj 90 66 tgl 19 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X obj 89 110 t f b;
 #X floatatom 166 63 5 0 0 0 - - - 0;
@@ -13,6 +13,7 @@
 #X obj 153 269 + 1, f 6;
 #X obj 85 385 outlet;
 #X obj 87 320 % 20;
+#X obj 346 36 inlet;
 #X connect 0 0 2 0;
 #X connect 1 0 4 0;
 #X connect 2 0 3 0;
@@ -26,6 +27,7 @@
 #X connect 8 0 11 0;
 #X connect 9 0 8 1;
 #X connect 11 0 10 0;
+#X connect 12 0 11 1;
 #X restore 93 154 pd counter;
 #X floatatom 155 72 5 0 0 0 - - - 0;
 #X obj 91 205 hradio 19 1 0 20 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0;
@@ -216,6 +218,7 @@
 #X obj 1000 270 * 6;
 #X obj 1030 270 * 6;
 #X obj 1058 270 * 6;
+#X floatatom 207 104 5 0 0 0 - - - 0;
 #X connect 0 0 1 0;
 #X connect 1 0 3 0;
 #X connect 2 0 1 1;
@@ -378,3 +381,4 @@
 #X connect 99 0 42 0;
 #X connect 100 0 43 0;
 #X connect 101 0 44 0;
+#X connect 102 0 1 2;
