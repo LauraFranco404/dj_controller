@@ -1,6 +1,8 @@
-#N canvas 841 397 489 353 12;
-#X obj 137 245 print;
-#X obj 132 40 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
-#X obj 140 98 inputreader;
-#X connect 1 0 2 0;
-#X connect 2 0 0 0;
+#N canvas 953 0 958 980 12;
+#X obj 150 92 inputreader;
+#X msg 148 42 listen 6000;
+#X obj 145 203 sampler;
+#X obj 62 209 player;
+#X connect 0 0 3 0;
+#X connect 0 0 2 0;
+#X connect 1 0 0 0;
