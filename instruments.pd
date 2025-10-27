@@ -106,6 +106,11 @@
 #X floatatom 345 58 5 0 0 0 - - - 0;
 #X floatatom 412 132 5 0 0 0 - - - 0;
 #X msg 430 55 23, f 6;
+#X obj 670 101 hsl 136 16 0 200 0 0 empty empty empty -2 -8 0 10 #fcfcfc #000000 #000000 0 1;
+#X floatatom 838 208 5 0 0 0 - - - 0;
+#X obj 839 274 ctlout 7 1;
+#X obj 768 33 route fader2;
+#X obj 790 144 * 200;
 #X connect 0 0 6 0;
 #X connect 1 0 0 0;
 #X connect 2 0 4 0;
@@ -240,6 +245,7 @@
 #X connect 93 0 79 0;
 #X connect 94 0 73 0;
 #X connect 94 0 101 0;
+#X connect 94 0 110 0;
 #X connect 95 0 5 1;
 #X connect 96 0 95 0;
 #X connect 96 0 53 0;
@@ -275,3 +281,7 @@
 #X connect 104 0 99 0;
 #X connect 105 0 103 0;
 #X connect 106 0 102 0;
+#X connect 107 0 108 0;
+#X connect 108 0 109 0;
+#X connect 110 0 111 0;
+#X connect 111 0 108 0;
