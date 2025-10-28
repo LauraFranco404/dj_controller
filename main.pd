@@ -3,6 +3,10 @@
 #X msg 148 42 listen 6000;
 #X obj 145 203 sampler;
 #X obj 62 209 player;
+#X obj 251 210 instruments;
+#X obj 377 208 envelop;
 #X connect 0 0 3 0;
 #X connect 0 0 2 0;
+#X connect 0 0 4 0;
+#X connect 0 0 5 0;
 #X connect 1 0 0 0;

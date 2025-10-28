@@ -1,4 +1,4 @@
-#N canvas 953 0 958 980 12;
+#N canvas 916 61 958 980 12;
 #N canvas 0 0 450 300 (subpatch) 0;
 #X array sample-table 63030 float 2;
 #A color 0;
@@ -9,7 +9,7 @@
 #X obj 46 227 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
 #X obj 27 436 s end;
 #X obj 318 588 hsl 162 19 0 63030 0 0 empty rfader1 empty -2 -10 0 12 #fcfcfc #000000 #000000 0 1;
-#X obj 322 656 hsl 162 19 0 63030 0 0 empty rfader2 empty -2 -10 0 12 #fcfcfc #000000 #000000 0 1;
+#X obj 323 655 hsl 162 19 0 63030 0 0 empty rfader2 empty -2 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X obj 330 617 s start;
 #X obj 320 715 s end;
 #X obj 657 225 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
@@ -36,7 +36,7 @@
 #X obj 202 46 inputreader;
 #X msg 194 -10 listen 6000;
 #X obj 211 92 route list;
-#X obj 208 166 route fader1;
+#X obj 202 176 route fader1;
 #X obj 321 166 route fader2;
 #X obj 214 214 *;
 #X obj 318 213 *;
