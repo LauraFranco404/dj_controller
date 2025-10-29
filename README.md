@@ -16,7 +16,7 @@ This repository contains the implementation of a DJ table in Pure Data, connecti
 
 [DEMO VIDEO](https://javerianacaliedu-my.sharepoint.com/:v:/g/personal/lcfranco_javerianacali_edu_co/ESwK3ZefW6hHgI6B-G-EWfYB0Meezrnt79bE4XHEGgFb-Q?e=t9hZ8A&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
-## Used tutorials
+# Used tutorials
 
 [Random Music Track](https://www.youtube.com/watch?v=jADuLtsFqkk)  
 
