@@ -1,6 +1,6 @@
 # DJ Controller
 
-This repository contains the implementation of a DJ table in Pure Data, connecting the [Sound cool OSC](https://play.google.com/store/apps/details?id=org.soundcool.upv.oscapp&hl=es_CO) application with the implemented system, thus creating a functional DJ table composed of the following components:  
+This repository contains the implementation of a DJ table in Pure Data, connecting the [Soundcool OSC](https://play.google.com/store/apps/details?id=org.soundcool.upv.oscapp&hl=es_CO) application with the implemented system, thus creating a functional DJ table composed of the following components:  
 
 **A Player**: Allows generating a random song with the C button to start recording and C to stop recording. Then, using the sliders, you can define the start and end of the song, whether it repeats, and the playback pitch.  
 
